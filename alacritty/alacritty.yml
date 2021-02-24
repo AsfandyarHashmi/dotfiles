@@ -1,0 +1,39 @@
+window:
+  padding:
+    x: 12
+    y: 12
+
+draw_bold_text_with_bright_colors: false
+
+selection:
+  save_to_clipboard: true
+
+cursor:
+  thickness: 0.18
+  vi_mode_style: Block
+
+colors:
+  primary:
+    background: '#f6f8fa'
+    foreground: '#24292e'
+  normal:
+    black: '#1b1f23'
+    red: '#d73a49'
+    green: '#28a745'
+    yellow: '#ffd33d'
+    blue: '#0366d6'
+    magenta: '#6f42c1'
+    cyan: '#0366d6'
+    white: '#ffffff'
+
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+  bold:
+    family: JetBrains Mono
+    style: Bold
+  italic:
+    family: JetBrains Mono
+    style: Italic
+  size: 11
