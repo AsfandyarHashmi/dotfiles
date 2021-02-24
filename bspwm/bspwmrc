@@ -17,8 +17,8 @@ bspc rule -a mpv state=floating
 #bspc rule -a Kupfer.py focus=on
 bspc rule -a scrot manage=off
 
-export DESKTOP_SESSION=gnome
-setxkbmap de
+export DESKTOP_SESSION=gnome &
+setxkbmap de &
 ~/.fehbg &
 picom &
 $HOME/.config/polybar/launch.sh
