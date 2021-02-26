@@ -126,3 +126,5 @@ XF86Audio{Raise,Lower}Volume
 	amixer set Master unmuted 10%{+,-}
 XF86AudioMute
 	amixer set Master toggle
+Print
+	scrot ~/Pictures/Screenshots/%F_%H%M%S.png
