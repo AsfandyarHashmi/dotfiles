@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + d
-	rofi -combi-modi windows,drun,ssh -theme "slate" -font "Source Code Pro 11" -show combi -icon-theme "Vimix" -show-icons
+	rofi -combi-modi window,drun,ssh -theme "slate" -font "SFPro Display 17" -icon-theme "Papirus-Light" -show combi -show-icons
 
 # make sxhkd reload its configuration files:
 super + Escape
